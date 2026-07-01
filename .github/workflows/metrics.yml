@@ -8,7 +8,6 @@ on:
 permissions:
   contents: write
 jobs:
-  # --- Carte stats principale (remplace github-readme-stats) ---
   main:
     runs-on: ubuntu-latest
     steps:
@@ -20,14 +19,15 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Paris
           user: iacker
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
           config_display: large
           config_padding: 6%
-  # --- Calendrier de contributions 3D isométrique (tableau "plein" stylisé) ---
+          # Thème sombre GitHub + accents verts NVIDIA
+          config_base16: "0d1117,161b22,76b900,76b900,c9d1d9,c9d1d9,76b900,76b900"
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_colors: 76b900, 30a14e, 40c463, 9be9a8, 216e39, 34d058, 2ea043, 238636
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
   isocalendar:
     runs-on: ubuntu-latest
     steps:
@@ -38,5 +38,6 @@ jobs:
           base: ""
           user: iacker
           config_timezone: Europe/Paris
+          config_base16: "0d1117,161b22,76b900,76b900,c9d1d9,c9d1d9,76b900,76b900"
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
