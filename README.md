@@ -74,8 +74,8 @@ identity:
 
 <div align="center">
 
-<!-- Carte metrics générée par lowlighter/metrics → SVG committé, 100% fiable -->
-<img width="100%" src="./assets/metrics.svg" alt="metrics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=iacker&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iacker&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=76B900&text_color=CCCCCC" />
 
 <br/>
 
@@ -97,10 +97,10 @@ identity:
 
 ## `0x03.5 >` <img src="https://img.shields.io/badge/-ACTIVITY-76B900?style=flat-square&labelColor=0D1117" />
 
-<!-- ░░░ CALENDRIER 3D ISOMÉTRIQUE (SVG committé — tableau de contributions plein) ░░░ -->
+<!-- ░░░ COURBE D'ACTIVITÉ REMPLIE (contribution graph vert/noir) ░░░ -->
 <div align="center">
 
-<img width="100%" src="./assets/metrics-isocalendar.svg" alt="isometric contribution calendar" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=iacker&bg_color=0D1117&color=76B900&line=76B900&point=CCCCCC&area=true&area_color=1a2e00&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph" />
 
 </div>
 
