@@ -8,10 +8,12 @@
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
-<!-- ░░░ HEADER ANIMÉ (capsule-render, vagues vertes sur noir) ░░░ -->
+<!-- ░░░ LOGO CALLIGRAPHIÉ CUSTOM (néon vert graffiti sur noir) ░░░ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a2e00,100:76B900&height=200&section=header&text=iacker&fontSize=70&fontColor=76B900&fontAlignY=35&desc=AI%20Architect%20%C2%B7%20HPC%20%C2%B7%20Agentic%20Orchestration&descSize=18&descColor=CCCCCC&descAlignY=58&animation=fadeIn&fontAlign=50" />
+<img width="70%" src="./assets/logo.png" alt="iacker" />
+
+<sub>**AI Architect** · **HPC** · **Agentic Orchestration**</sub>
 
 <!-- ░░░ TYPEWRITER ANIMÉ (Orbitron, vert NVIDIA) ░░░ -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3500&pause=600&color=76B900&center=true&vCenter=true&random=false&width=900&lines=Architecte+IA+%26+Syst%C3%A8mes+Agentiques;HPC+%C2%B7+GPU+Serving+%C2%B7+Kubernetes;Je+con%C3%A7ois+les+boucles+qui+pilotent+les+agents)](https://git.io/typing-svg)
@@ -86,10 +88,21 @@ identity:
 
 ---
 
-<!-- ░░░ SNAKE ANIMÉ (nécessite une GitHub Action — voir note en bas) ░░░ -->
+<!-- ░░░ SNAKE ANIMÉ (généré par GitHub Action Platane/snk) ░░░ -->
 <div align="center">
 
 <img width="100%" src="https://raw.githubusercontent.com/iacker/iacker/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+
+</div>
+
+---
+
+## `0x03.5 >` <img src="https://img.shields.io/badge/-ACTIVITY-76B900?style=flat-square&labelColor=0D1117" />
+
+<!-- ░░░ COURBE D'ACTIVITÉ REMPLIE (contribution graph stylisé vert/noir) ░░░ -->
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=iacker&bg_color=0D1117&color=76B900&line=76B900&point=CCCCCC&area=true&area_color=1a2e00&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph" />
 
 </div>
 
