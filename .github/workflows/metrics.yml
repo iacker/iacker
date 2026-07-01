@@ -21,13 +21,17 @@ jobs:
           user: iacker
           config_display: large
           config_padding: 6%
-          # Thème sombre GitHub + accents verts NVIDIA
-          config_base16: "0d1117,161b22,76b900,76b900,c9d1d9,c9d1d9,76b900,76b900"
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_colors: 76b900, 30a14e, 40c463, 9be9a8, 216e39, 34d058, 2ea043, 238636
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
+          extras_css: >
+            svg{background:#0d1117!important;color:#c9d1d9!important}
+            svg *{color:#c9d1d9}
+            .day[fill="#ebedf0"]{fill:#161b22!important}
+            text{fill:#c9d1d9!important}
+            .title,h2,.header{fill:#76b900!important;color:#76b900!important}
+            a{color:#76b900!important}
   isocalendar:
     runs-on: ubuntu-latest
     steps:
@@ -38,6 +42,10 @@ jobs:
           base: ""
           user: iacker
           config_timezone: Europe/Paris
-          config_base16: "0d1117,161b22,76b900,76b900,c9d1d9,c9d1d9,76b900,76b900"
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          extras_css: >
+            svg{background:#0d1117!important;color:#c9d1d9!important}
+            text{fill:#c9d1d9!important}
+            .day[fill="#ebedf0"]{fill:#161b22!important}
+            .calendar-year,.title{fill:#76b900!important}
