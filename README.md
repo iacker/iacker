@@ -86,27 +86,20 @@ identity:
 
 ---
 
-<!-- ░░░ SNAKE ANIMÉ (généré par GitHub Action Platane/snk) ░░░ -->
+## `0x04 >` <img src="https://img.shields.io/badge/-CONTRIB__ARCADE-76B900?style=flat-square&labelColor=0D1117" />
+
+<!-- ░░░ SPACE SHOOTER — le graphe de contribution devient un jeu (Action czl9707/gh-space-shooter) ░░░ -->
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/iacker/iacker/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+<img width="100%" src="https://raw.githubusercontent.com/iacker/iacker/main/game.gif" alt="Mon graphe de contribution, joué en space shooter" />
+
+<sub>`chaque commit est une cible` · généré chaque jour par GitHub Action</sub>
 
 </div>
 
 ---
 
-## `0x03.5 >` <img src="https://img.shields.io/badge/-ACTIVITY-76B900?style=flat-square&labelColor=0D1117" />
-
-<!-- ░░░ COURBE D'ACTIVITÉ REMPLIE (contribution graph vert/noir) ░░░ -->
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=iacker&bg_color=0D1117&color=76B900&line=76B900&point=CCCCCC&area=true&area_color=1a2e00&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph" />
-
-</div>
-
----
-
-## `0x04 >` <img src="https://img.shields.io/badge/-CONNECT-76B900?style=flat-square&labelColor=0D1117" />
+## `0x05 >` <img src="https://img.shields.io/badge/-CONNECT-76B900?style=flat-square&labelColor=0D1117" />
 
 <div align="center">
 
