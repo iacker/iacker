@@ -12,7 +12,7 @@
 
 **AI Infrastructure Engineer**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=23&duration=3000&pause=700&color=22D3EE&center=true&vCenter=true&width=780&cacheSeconds=1&lines=GPU+serving+%C2%B7+vLLM+%C2%B7+Kubernetes;IaC+%C2%B7+FinOps+GPU+%C2%B7+Observabilit%C3%A9;Agents+%C2%B7+MCP+%C2%B7+RAG+local&v=2)](https://github.com/iacker)
+<img src="./assets/tagline.svg" alt="GPU serving · vLLM · Kubernetes · IaC · FinOps GPU · Observabilité · Agents · MCP · RAG local" width="620" />
 
 <img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=7C3AED&style=flat-square" alt="vues" />
 <img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=7C3AED&labelColor=0D1117" alt="followers" />

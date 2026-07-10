@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 46" width="780" height="46" font-family="'DejaVu Sans Mono','Menlo','Consolas',monospace" font-weight="600" font-size="22">
+  <g text-anchor="middle" fill="#22D3EE">
+    <text x="390" y="30" opacity="0">GPU serving · vLLM · Kubernetes
+      <animate attributeName="opacity" dur="9s" repeatCount="indefinite" begin="0s"
+        values="0;1;1;0;0" keyTimes="0;0.04;0.30;0.34;1"/>
+    </text>
+    <text x="390" y="30" opacity="0">IaC · FinOps GPU · Observabilité
+      <animate attributeName="opacity" dur="9s" repeatCount="indefinite" begin="3s"
+        values="0;1;1;0;0" keyTimes="0;0.04;0.30;0.34;1"/>
+    </text>
+    <text x="390" y="30" opacity="0">Agents · MCP · RAG local
+      <animate attributeName="opacity" dur="9s" repeatCount="indefinite" begin="6s"
+        values="0;1;1;0;0" keyTimes="0;0.04;0.30;0.34;1"/>
+    </text>
+  </g>
+</svg>
