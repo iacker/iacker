@@ -1,23 +1,23 @@
 <!--
   README profil GitHub : iacker (Erwan Billard)
-  Thème : dégradé violet #7C3AED → cyan #22D3EE sur fond #0D1117
-  Libs : capsule-render · readme-typing-svg · skillicons.dev · shields.io
+  Thème : fer forgé / médiéval — acier #B0B8C1 sur fond #0D1117
+  Libs : capsule-render · skillicons.dev · shields.io · Pirata One / Cinzel (wordmark forgé)
 -->
 
 <div align="center">
 
-<img width="44%" src="./assets/wordmark.png" alt="iacker" />
+<img width="40%" src="./assets/wordmark.png" alt="iacker" />
 
 <br/>
 
-**AI Infrastructure Engineer**
+**Cloud & Platform Engineer — DevSecOps**
 
-<img width="62%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · IaC · FinOps · MCP · RAG" />
+<img width="70%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · IaC hybride · DevSecOps · FinOps" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=7C3AED&style=flat-square" alt="vues" />
-<img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=7C3AED&labelColor=0D1117" alt="followers" />
+<img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=6C757D&style=flat-square" alt="vues" />
+<img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=6C757D&labelColor=0D1117" alt="followers" />
 
 </div>
 
@@ -25,17 +25,17 @@
 
 ## Ce que je fais
 
-Je fais tourner des LLM sur GPU en production, et je maîtrise le coût, la latence et l'énergie qui vont avec. Mon terrain, c'est la couche entre le modèle et le hardware : provisionner le GPU, servir le modèle, l'observer, le rendre **rentable**.
+Je construis et opère l'infrastructure qui fait tourner des charges GPU et LLM en production, sur du **cloud hybride** — sur site plus AWS/Azure. J'automatise le provisioning, je sécurise la chaîne, et je garde le coût sous contrôle.
 
-- **`GPU / LLM serving`** : vLLM, quantization FP16/FP8, RunPod et bare metal, dimensionnement, DCGM
-- **`Kubernetes / Platform`** : k3s, Talos, Helm, GitOps (Flux, Argo), Kueue, autoscaling, hybride sur site et cloud
-- **`IaC et FinOps`** : Terraform, coût €/token et énergie mesurés, budget guards, teardown propre
-- **`Agents et tooling`** : MCP, RAG local, orchestration multi agents
-- **`Sécurité`** : DevSecOps, eBPF/NDR, supply chain, hardening
+- **`Cloud hybride`** : AWS, Azure, sur site, GPU bare metal et cloud
+- **`Kubernetes / Platform`** : k3s, Talos, Helm, GitOps (Flux, Argo), autoscaling
+- **`IaC`** : Terraform, Ansible, pipelines reproductibles, teardown propre
+- **`DevSecOps`** : eBPF/NDR, hardening, supply chain, zéro trust
+- **`GPU / LLM serving`** : vLLM, quantization FP16/FP8, DCGM, coût €/token mesuré
 
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=kubernetes,docker,terraform,pytorch,python,go,aws,azure,gcp,nix,linux,grafana,prometheus,bash&perline=14&theme=dark)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=kubernetes,docker,terraform,ansible,azure,aws,linux,python,go,grafana,prometheus,nix,bash,git&perline=14&theme=dark)](https://skillicons.dev)
 
 </div>
 
@@ -43,16 +43,14 @@ Je fais tourner des LLM sur GPU en production, et je maîtrise le coût, la late
 
 ## Projets
 
-> La couche complète : provisionner, servir, opérer puis optimiser un LLM sur GPU.
-
 | Projet | En bref |
 |--------|---------|
-| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | Un `terraform apply`, et un GPU RunPod sert un LLM en API OpenAI. Budget guard, anti doublon, teardown propre. |
-| **[gpu-infra-lab](https://github.com/iacker/gpu-infra-lab)** | Lab SRE : vLLM sur k3s, observabilité DCGM, coût €/token et énergie **mesurés**, runbooks d'incidents vécus. |
-| **[Nimbridge](https://github.com/iacker/Nimbridge)** | Inférence NVIDIA NIM en hybride : Kubernetes sur site plus GPU Azure, registry Harbor. |
-| **[brain-rag-server](https://github.com/iacker/brain-rag-server)** | RAG local sur Obsidian via MCP : embeddings CPU, LanceDB plus BM25, zéro cloud. |
-| **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Proxy de filtrage sémantique pour le Docker MCP Gateway. Réduit les tokens de catalogue par tour. |
+| **[gpu-inference-reliability-lab](https://github.com/iacker/gpu-inference-reliability-lab)** | Lab SRE : vLLM sur k3s, observabilité DCGM, coût €/token et énergie **mesurés**, runbooks d'incidents. |
 | **[Talos_Bastion_DevSecOps](https://github.com/iacker/Talos_Bastion_DevSecOps)** | Cluster Talos Linux GitOps : Cilium (eBPF), Traefik, ArgoCD, accès zéro trust. |
+| **[Azure-Pipeline-Custom-Image](https://github.com/iacker/Azure-Pipeline-Custom-Image)** | CI/CD Azure DevOps : image VM custom déployée via Managed DevOps Pool. |
+| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | Un `terraform apply`, et un GPU RunPod sert un LLM en API OpenAI. Budget guard, teardown propre. |
+| **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Proxy de filtrage sémantique pour le Docker MCP Gateway. Réduit les tokens de catalogue par tour. |
+| **[Harness-Cluster](https://github.com/iacker/Harness-Cluster)** | Lab k3s 2 nœuds piloté en GitOps par Flux CD, sur hardware recyclé. |
 
 <br/>
 
@@ -70,9 +68,9 @@ Je fais tourner des LLM sur GPU en production, et je maîtrise le coût, la late
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erwan-billard)
-[![Email](https://img.shields.io/badge/Email-22D3EE?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:erwan.billard@protonmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-4A5259?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erwan-billard)
+[![Email](https://img.shields.io/badge/Email-6C757D?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:erwan.billard@protonmail.com)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:7C3AED&height=110&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3238,100:6C757D&height=110&section=footer" />
 
 </div>
