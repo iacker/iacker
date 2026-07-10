@@ -1,5 +1,5 @@
 <!--
-  README profil GitHub — iacker (Erwan Billard)
+  README profil GitHub : iacker (Erwan Billard)
   Thème : dégradé violet #7C3AED → cyan #22D3EE sur fond #0D1117
   Libs : capsule-render · readme-typing-svg · skillicons.dev · shields.io
 -->
