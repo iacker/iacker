@@ -1,114 +1,99 @@
 <!--
-  ╔══════════════════════════════════════════════════════════════╗
-  ║  README profil GitHub — iacker                               ║
-  ║  Style: NVIDIA (vert #76B900 sur fond noir #0D1117)          ║
-  ║  Repo cible: iacker/iacker  →  README.md à la racine          ║
-  ║  Libs: capsule-render · readme-typing-svg · skillicons.dev    ║
-  ║        github-readme-stats · shields.io · snake (Action)      ║
-  ╚══════════════════════════════════════════════════════════════╝
+  README profil GitHub — iacker (Erwan Billard)
+  Thème NVIDIA : vert #76B900 sur fond #0D1117
+  Libs externes : capsule-render · readme-typing-svg · skillicons.dev
+                  github-readme-stats · shields.io
 -->
 
-<!-- ░░░ LOGO CALLIGRAPHIÉ CUSTOM (néon vert graffiti sur noir) ░░░ -->
 <div align="center">
 
-<img width="70%" src="./assets/logo.png" alt="iacker" />
+<img width="62%" src="./assets/logo.png" alt="iacker" />
 
-<sub>**AI Architect** · **HPC** · **Agentic Orchestration**</sub>
+### AI Infrastructure Engineer
 
-<!-- ░░░ TYPEWRITER ANIMÉ (Orbitron, vert NVIDIA) ░░░ -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3500&pause=600&color=76B900&center=true&vCenter=true&random=false&width=900&lines=Architecte+IA+%26+Syst%C3%A8mes+Agentiques;HPC+%C2%B7+GPU+Serving+%C2%B7+Kubernetes;Je+con%C3%A7ois+les+boucles+qui+pilotent+les+agents)](https://git.io/typing-svg)
+**Je fais tourner des LLM sur GPU en production — et je maîtrise le coût, la latence et l'énergie qui vont avec.**
 
-<!-- Compteur de vues + followers (badges verts) -->
-<img src="https://komarev.com/ghpvc/?username=iacker&label=PROFILE+VIEWS&color=76B900&style=flat-square" alt="views" />
-<img src="https://img.shields.io/github/followers/iacker?label=FOLLOWERS&style=flat-square&color=76B900&labelColor=0D1117" alt="followers" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3600&pause=700&color=76B900&center=true&vCenter=true&width=820&lines=GPU+serving+%C2%B7+vLLM+%C2%B7+Kubernetes;IaC+%C2%B7+FinOps+GPU+%C2%B7+Observabilit%C3%A9;Agents+%C2%B7+MCP+%C2%B7+RAG+local)](https://git.io/typing-svg)
+
+<img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=76B900&style=flat-square" alt="vues" />
+<img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=76B900&labelColor=0D1117" alt="followers" />
 
 </div>
 
 ---
 
-## `0x00 >` <img src="https://img.shields.io/badge/-WHOAMI-76B900?style=flat-square&labelColor=0D1117" />
+## Ce que je fais
 
-```yaml
-identity:
-  role:      Architecte IA — systèmes agentiques & infra HPC/GPU
-  origin:    DevSecOps senior (Cloud · K8s · Terraform · CI/CD)
-  focus:     orchestration multi-agents en production
-  conviction: "On ne prompte pas un agent — on conçoit le système qui le prompte."
-  paradigm:  loop-engineering
-```
+Ancien **DevSecOps** passé côté **infrastructure GPU / LLM**. Mon terrain, c'est la couche entre le modèle et le hardware : provisionner le GPU, servir le modèle, l'observer, et le rendre **rentable**.
 
----
-
-## `0x01 >` <img src="https://img.shields.io/badge/-STACK-76B900?style=flat-square&labelColor=0D1117" />
+- **`GPU / LLM serving`** — vLLM, quantization FP16/FP8, RunPod & bare-metal, dimensionnement, DCGM
+- **`Kubernetes / Platform`** — k3s, Talos, Helm, GitOps (Flux/Argo), Kueue, autoscaling, hybride on-prem ↔ cloud
+- **`IaC & FinOps`** — Terraform, coût €/token et énergie mesurés, budget guards, teardown propre
+- **`Agents & tooling`** — MCP, RAG local, orchestration multi-agents
+- **`Sécurité`** — DevSecOps, eBPF/NDR, supply chain, hardening
 
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=kubernetes,docker,terraform,aws,azure,gcp,nix,python,go,rust,bash,linux&perline=12&theme=dark)](https://skillicons.dev)
-[![Skills](https://skillicons.dev/icons?i=pytorch,fastapi,postgres,redis,grafana,prometheus,githubactions,cloudflare,vim,git&perline=12&theme=dark)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=kubernetes,docker,terraform,pytorch,python,go,aws,azure,gcp,nix,linux,grafana,prometheus,bash&perline=14&theme=dark)](https://skillicons.dev)
 
 </div>
 
-- **`AI / Agentic`** — orchestration multi-agents, Hermes, MCP, RAG, fine-tuning, vLLM
-- **`HPC / GPU`** — clusters GPU, LLM serving, quantization, scheduling, RunPod / bare-metal
-- **`Cloud & K8s`** — Talos, Helm, GitOps, autoscaling, multi-cluster hybride
-- **`Security`** — DevSecOps, Vault, eBPF NDR, supply chain, hardening
-
 ---
 
-## `0x02 >` <img src="https://img.shields.io/badge/-PROJECTS-76B900?style=flat-square&labelColor=0D1117" />
+## Projets
+
+> La couche complète : **provisionner → servir → opérer → optimiser** un LLM sur GPU.
 
 <div align="center">
 
-[![Excalibur](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=Excalibur&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/Excalibur)
-[![AzureClaw](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=AzureClaw&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/AzureClaw)
-[![agentic-os](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=agentic-os&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/agentic-os)
-[![Talos_Bastion](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=Talos_Bastion_DevSecOps&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/Talos_Bastion_DevSecOps)
-[![Mando](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=Mando&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/Mando)
+[![terraform-runpod-vllm](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=terraform-runpod-vllm&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/terraform-runpod-vllm)
+[![gpu-infra-lab](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=gpu-infra-lab&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/gpu-infra-lab)
 [![Nimbridge](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=Nimbridge&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/Nimbridge)
+[![brain-rag-server](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=brain-rag-server&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/brain-rag-server)
+[![mcp-scalpel](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=mcp-scalpel&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/mcp-scalpel)
+[![Talos_Bastion_DevSecOps](https://github-readme-stats.vercel.app/api/pin/?username=iacker&repo=Talos_Bastion_DevSecOps&border_color=76B900&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900)](https://github.com/iacker/Talos_Bastion_DevSecOps)
 
 </div>
 
+| Projet | En bref |
+|--------|---------|
+| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | Un `terraform apply` → un GPU RunPod qui sert un LLM en API OpenAI. Budget guard, anti-doublon, teardown propre. |
+| **[gpu-infra-lab](https://github.com/iacker/gpu-infra-lab)** | Lab SRE : vLLM sur k3s, observabilité DCGM, coût €/token et énergie **mesurés**, runbooks d'incidents vécus. |
+| **[Nimbridge](https://github.com/iacker/Nimbridge)** | Inférence NVIDIA NIM en hybride : Kubernetes on-prem + GPU Azure, registry Harbor. |
+| **[brain-rag-server](https://github.com/iacker/brain-rag-server)** | RAG local sur Obsidian via MCP — embeddings CPU, LanceDB + BM25, zéro cloud. |
+| **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Proxy de filtrage sémantique pour le Docker MCP Gateway. Réduit les tokens de catalogue par tour. |
+| **[Talos_Bastion_DevSecOps](https://github.com/iacker/Talos_Bastion_DevSecOps)** | Cluster Talos Linux GitOps : Cilium (eBPF), Traefik, ArgoCD, accès zéro-trust. |
+
 ---
 
-## `0x03 >` <img src="https://img.shields.io/badge/-METRICS-76B900?style=flat-square&labelColor=0D1117" />
+## Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=iacker&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iacker&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=76B900&text_color=CCCCCC" />
-
-<br/>
-
-<!-- Streak (service demolab, fiable) -->
-<img height="170" src="https://streak-stats.demolab.com?user=iacker&hide_border=true&background=0D1117&stroke=76B900&ring=76B900&fire=76B900&currStreakLabel=76B900&sideLabels=CCCCCC&dates=888888&currStreakNum=CCCCCC&sideNums=CCCCCC" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=iacker&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=76B900&text_color=CCCCCC&icon_color=76B900" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iacker&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=76B900&text_color=CCCCCC" />
 
 </div>
 
 ---
 
-## `0x04 >` <img src="https://img.shields.io/badge/-CONTRIB__ARCADE-76B900?style=flat-square&labelColor=0D1117" />
-
-<!-- ░░░ SPACE SHOOTER — le graphe de contribution devient un jeu (Action czl9707/gh-space-shooter) ░░░ -->
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/iacker/iacker/main/game.gif" alt="Mon graphe de contribution, joué en space shooter" />
+<sub>`chaque commit est une cible` — mon graphe de contribution joué en space shooter, régénéré chaque jour</sub>
 
-<sub>`chaque commit est une cible` · généré chaque jour par GitHub Action</sub>
+<img width="92%" src="https://raw.githubusercontent.com/iacker/iacker/main/game.gif" alt="Graphe de contribution en space shooter" />
 
 </div>
 
 ---
 
-## `0x05 >` <img src="https://img.shields.io/badge/-CONNECT-76B900?style=flat-square&labelColor=0D1117" />
+## Contact
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-76B900?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/erwan-billard)
 [![Email](https://img.shields.io/badge/Email-76B900?style=for-the-badge&logo=protonmail&logoColor=black)](mailto:erwan.billard@protonmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-76B900?style=for-the-badge&logo=github&logoColor=black)](https://github.com/iacker)
 
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:76B900,50:1a2e00,100:000000&height=110&section=footer" />
 
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:76B900,50:1a2e00,100:000000&height=120&section=footer" />
 </div>
