@@ -6,7 +6,11 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:7C3AED,100:22D3EE&text=iacker&fontColor=ffffff&fontSize=82&fontAlign=50&fontAlignY=38&desc=AI%20Infrastructure%20Engineer&descSize=19&descAlign=50&descAlignY=64" alt="iacker" />
+<img width="44%" src="./assets/wordmark.png" alt="iacker" />
+
+<br/>
+
+**AI Infrastructure Engineer**
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=23&duration=3000&pause=700&color=22D3EE&center=true&vCenter=true&width=780&lines=GPU+serving+%C2%B7+vLLM+%C2%B7+Kubernetes;IaC+%C2%B7+FinOps+GPU+%C2%B7+Observabilit%C3%A9;Agents+%C2%B7+MCP+%C2%B7+RAG+local)](https://github.com/iacker)
 
