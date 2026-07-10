@@ -6,9 +6,9 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:7C3AED,100:22D3EE&text=iacker&fontColor=ffffff&fontSize=76&fontAlignY=38&desc=AI%20Infrastructure%20Engineer&descSize=20&descAlignY=60&animation=fadeIn" alt="iacker" />
+<a href="https://github.com/iacker"><img src="https://readme-typing-svg.demolab.com?font=Audiowide&size=64&duration=99999999&pause=1000&color=22D3EE&center=true&vCenter=true&width=560&height=110&lines=iacker" alt="iacker" /></a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=25&duration=3200&pause=700&color=22D3EE&center=true&vCenter=true&width=780&lines=GPU+serving+%C2%B7+vLLM+%C2%B7+Kubernetes;IaC+%C2%B7+FinOps+GPU+%C2%B7+Observabilit%C3%A9;Agents+%C2%B7+MCP+%C2%B7+RAG+local)](https://github.com/iacker)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=23&duration=3000&pause=700&color=A78BFA&center=true&vCenter=true&width=780&lines=AI+Infrastructure+Engineer;GPU+serving+%C2%B7+vLLM+%C2%B7+Kubernetes;IaC+%C2%B7+FinOps+GPU+%C2%B7+Observabilit%C3%A9;Agents+%C2%B7+MCP+%C2%B7+RAG+local)](https://github.com/iacker)
 
 <img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=7C3AED&style=flat-square" alt="vues" />
 <img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=7C3AED&labelColor=0D1117" alt="followers" />
