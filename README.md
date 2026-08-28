@@ -16,6 +16,10 @@
 
 <br/><br/>
 
+Mainteneur [Kepler](https://github.com/sustainable-computing-io/kepler) (CNCF) · mesure de la consommation énergétique dans Kubernetes
+
+<br/>
+
 <img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=6C757D&style=flat-square" alt="vues" />
 <img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=6C757D&labelColor=0D1117" alt="followers" />
 
@@ -25,7 +29,7 @@
 
 ## Ce que je fais
 
-Je construis et opère l'infrastructure qui fait tourner des charges GPU et LLM en production, sur du **cloud hybride** — sur site plus AWS/Azure. J'automatise le provisioning, je sécurise la chaîne, et je garde le coût sous contrôle.
+Je construis et j'opère l'infrastructure qui sert des charges GPU et LLM en production, sur du cloud hybride (sur site plus AWS/Azure). J'automatise le provisioning, je sécurise la chaîne, je garde le coût sous contrôle.
 
 - **`Cloud hybride`** : AWS, Azure, sur site, GPU bare metal et cloud
 - **`Kubernetes / Platform`** : k3s, Talos, Helm, GitOps (Flux, Argo), autoscaling
@@ -47,20 +51,9 @@ Je construis et opère l'infrastructure qui fait tourner des charges GPU et LLM 
 |--------|---------|
 | **[gpu-inference-reliability-lab](https://github.com/iacker/gpu-inference-reliability-lab)** | Lab SRE : vLLM sur k3s, observabilité DCGM, coût €/token et énergie **mesurés**, runbooks d'incidents. |
 | **[Talos_Bastion_DevSecOps](https://github.com/iacker/Talos_Bastion_DevSecOps)** | Cluster Talos Linux GitOps : Cilium (eBPF), Traefik, ArgoCD, accès zéro trust. |
-| **[Azure-Pipeline-Custom-Image](https://github.com/iacker/Azure-Pipeline-Custom-Image)** | CI/CD Azure DevOps : image VM custom déployée via Managed DevOps Pool. |
-| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | Un `terraform apply`, et un GPU RunPod sert un LLM en API OpenAI. Budget guard, teardown propre. |
+| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | Un `terraform apply`, un GPU RunPod sert un LLM en API OpenAI. Budget guard, teardown propre. |
 | **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Proxy de filtrage sémantique pour le Docker MCP Gateway. Réduit les tokens de catalogue par tour. |
-| **[Harness-Cluster](https://github.com/iacker/Harness-Cluster)** | Lab k3s 2 nœuds piloté en GitOps par Flux CD, sur hardware recyclé. |
-
-<br/>
-
-<div align="center">
-
-<sub>`chaque commit est une cible` : mon graphe de contribution joué en space shooter, régénéré chaque jour</sub>
-
-<img width="90%" src="https://raw.githubusercontent.com/iacker/iacker/main/game.gif" alt="Graphe de contribution en space shooter" />
-
-</div>
+| **[Azure-Pipeline-Custom-Image](https://github.com/iacker/Azure-Pipeline-Custom-Image)** | CI/CD Azure DevOps : image VM custom déployée via Managed DevOps Pool. |
 
 <br/>
 
@@ -68,7 +61,7 @@ Je construis et opère l'infrastructure qui fait tourner des charges GPU et LLM 
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4A5259?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erwan-billard)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-4A5259?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erwanbillard)
 [![Email](https://img.shields.io/badge/Email-6C757D?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:erwan.billard@protonmail.com)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3238,100:6C757D&height=110&section=footer" />
