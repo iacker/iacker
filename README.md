@@ -12,7 +12,7 @@
 
 **Cloud & Platform Engineer, DevSecOps**
 
-<img width="70%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · IaC hybride · DevSecOps · FinOps" />
+<img width="70%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · hybrid IaC · DevSecOps · FinOps" />
 
 <br/><br/>
 
