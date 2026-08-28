@@ -1,7 +1,7 @@
 <!--
-  README profil GitHub : iacker (Erwan Billard)
-  Thème : fer forgé / médiéval — acier #B0B8C1 sur fond #0D1117
-  Libs : capsule-render · skillicons.dev · shields.io · Pirata One / Cinzel (wordmark forgé)
+  GitHub profile README: iacker (Erwan Billard)
+  Theme: wrought iron / medieval — steel #B0B8C1 on #0D1117
+  Libs: capsule-render · skillicons.dev · shields.io · Pirata One / Cinzel (forged wordmark)
 -->
 
 <div align="center">
@@ -10,32 +10,32 @@
 
 <br/>
 
-**Cloud & Platform Engineer — DevSecOps**
+**Cloud & Platform Engineer, DevSecOps**
 
 <img width="70%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · IaC hybride · DevSecOps · FinOps" />
 
 <br/><br/>
 
-Mainteneur [Kepler](https://github.com/sustainable-computing-io/kepler) (CNCF) · mesure de la consommation énergétique dans Kubernetes
+[Kepler](https://github.com/sustainable-computing-io/kepler) maintainer (CNCF) · measuring energy consumption in Kubernetes
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=iacker&label=Vues&color=6C757D&style=flat-square" alt="vues" />
+<img src="https://komarev.com/ghpvc/?username=iacker&label=Views&color=6C757D&style=flat-square" alt="views" />
 <img src="https://img.shields.io/github/followers/iacker?label=Followers&style=flat-square&color=6C757D&labelColor=0D1117" alt="followers" />
 
 </div>
 
 <br/>
 
-## Ce que je fais
+## What I do
 
-Je construis et j'opère l'infrastructure qui sert des charges GPU et LLM en production, sur du cloud hybride (sur site plus AWS/Azure). J'automatise le provisioning, je sécurise la chaîne, je garde le coût sous contrôle.
+I build and operate the infrastructure that serves GPU and LLM workloads in production, on hybrid cloud (on-prem plus AWS/Azure). I automate provisioning, secure the chain, and keep cost under control.
 
-- **`Cloud hybride`** : AWS, Azure, sur site, GPU bare metal et cloud
+- **`Hybrid cloud`** : AWS, Azure, on-prem, GPU bare metal and cloud
 - **`Kubernetes / Platform`** : k3s, Talos, Helm, GitOps (Flux, Argo), autoscaling
-- **`IaC`** : Terraform, Ansible, pipelines reproductibles, teardown propre
-- **`DevSecOps`** : eBPF/NDR, hardening, supply chain, zéro trust
-- **`GPU / LLM serving`** : vLLM, quantization FP16/FP8, DCGM, coût €/token mesuré
+- **`IaC`** : Terraform, Ansible, reproducible pipelines, clean teardown
+- **`DevSecOps`** : eBPF/NDR, hardening, supply chain, zero trust
+- **`GPU / LLM serving`** : vLLM, FP16/FP8 quantization, DCGM, measured €/token cost
 
 <div align="center">
 
@@ -45,15 +45,15 @@ Je construis et j'opère l'infrastructure qui sert des charges GPU et LLM en pro
 
 <br/>
 
-## Projets
+## Projects
 
-| Projet | En bref |
+| Project | In short |
 |--------|---------|
-| **[gpu-inference-reliability-lab](https://github.com/iacker/gpu-inference-reliability-lab)** | Lab SRE : vLLM sur k3s, observabilité DCGM, coût €/token et énergie **mesurés**, runbooks d'incidents. |
-| **[Talos_Bastion_DevSecOps](https://github.com/iacker/Talos_Bastion_DevSecOps)** | Cluster Talos Linux GitOps : Cilium (eBPF), Traefik, ArgoCD, accès zéro trust. |
-| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | Un `terraform apply`, un GPU RunPod sert un LLM en API OpenAI. Budget guard, teardown propre. |
-| **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Proxy de filtrage sémantique pour le Docker MCP Gateway. Réduit les tokens de catalogue par tour. |
-| **[Azure-Pipeline-Custom-Image](https://github.com/iacker/Azure-Pipeline-Custom-Image)** | CI/CD Azure DevOps : image VM custom déployée via Managed DevOps Pool. |
+| **[gpu-inference-reliability-lab](https://github.com/iacker/gpu-inference-reliability-lab)** | SRE lab: vLLM on k3s, DCGM observability, **measured** €/token and energy, incident runbooks. |
+| **[Talos_Bastion_DevSecOps](https://github.com/iacker/Talos_Bastion_DevSecOps)** | Talos Linux GitOps cluster: Cilium (eBPF), Traefik, ArgoCD, zero-trust access. |
+| **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | One `terraform apply`, a RunPod GPU serves an LLM over the OpenAI API. Budget guard, clean teardown. |
+| **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Semantic filtering proxy for the Docker MCP Gateway. Cuts catalog tokens per turn. |
+| **[Azure-Pipeline-Custom-Image](https://github.com/iacker/Azure-Pipeline-Custom-Image)** | Azure DevOps CI/CD: custom VM image deployed via Managed DevOps Pool. |
 
 <br/>
 
