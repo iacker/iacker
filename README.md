@@ -52,6 +52,7 @@ I build and operate the infrastructure that serves GPU and LLM workloads in prod
 | **[gpu-inference-reliability-lab](https://github.com/iacker/gpu-inference-reliability-lab)** | SRE lab: vLLM on k3s, DCGM observability, **measured** €/token and energy, incident runbooks. |
 | **[Talos_Bastion_DevSecOps](https://github.com/iacker/Talos_Bastion_DevSecOps)** | Talos Linux GitOps cluster: Cilium (eBPF), Traefik, ArgoCD, zero-trust access. |
 | **[terraform-runpod-vllm](https://github.com/iacker/terraform-runpod-vllm)** | One `terraform apply`, a RunPod GPU serves an LLM over the OpenAI API. Budget guard, clean teardown. |
+| **[ansible-collection-fleet](https://github.com/iacker/ansible-collection-fleet)** | Ansible collection on [Galaxy](https://galaxy.ansible.com/ui/repo/published/iacker/fleet/): rolling k3s reboots, apt over VPN SSH, guarded podman-compose updates. Tested in CI. |
 | **[mcp-scalpel](https://github.com/iacker/mcp-scalpel)** | Semantic filtering proxy for the Docker MCP Gateway. Cuts catalog tokens per turn. |
 | **[Azure-Pipeline-Custom-Image](https://github.com/iacker/Azure-Pipeline-Custom-Image)** | Azure DevOps CI/CD: custom VM image deployed via Managed DevOps Pool. |
 
