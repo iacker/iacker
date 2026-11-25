@@ -10,9 +10,9 @@
 
 <br/>
 
-**Cloud & Platform Engineer, DevSecOps**
+**Senior AI Infrastructure Engineer**
 
-<img width="70%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · hybrid IaC · DevSecOps · FinOps" />
+<img width="70%" src="./assets/tagline.png" alt="GPU serving · Kubernetes · LLM inference · Agents · FinOps" />
 
 <br/><br/>
 
@@ -29,13 +29,13 @@
 
 ## What I do
 
-I build and operate the infrastructure that serves GPU and LLM workloads in production, on hybrid cloud (on-prem plus AWS/Azure). I automate provisioning, secure the chain, and keep cost under control.
+I build and run the infrastructure behind GPU and LLM workloads in production: model serving, agentic systems, and the Kubernetes platforms underneath, on-prem or on AWS/Azure. I measure what each token costs in euros and in watts, and I keep it under control.
 
-- **`Hybrid cloud`** : AWS, Azure, on-prem, GPU bare metal and cloud
-- **`Kubernetes / Platform`** : k3s, Talos, Helm, GitOps (Flux, Argo), autoscaling
-- **`IaC`** : Terraform, Ansible, reproducible pipelines, clean teardown
-- **`DevSecOps`** : eBPF/NDR, hardening, supply chain, zero trust
 - **`GPU / LLM serving`** : vLLM, FP16/FP8 quantization, DCGM, measured €/token cost
+- **`Agents / LLM apps`** : agentic workflows, MCP, RAG, evaluation in production
+- **`Kubernetes for AI`** : GPU scheduling, k3s, Talos, Helm, GitOps (Flux, Argo), autoscaling
+- **`Energy & cost`** : Kepler (CNCF maintainer), power per workload, FinOps GPU
+- **`IaC`** : Terraform, Ansible, AWS, Azure, GPU bare metal, clean teardown
 
 <div align="center">
 
